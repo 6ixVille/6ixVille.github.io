@@ -33,6 +33,23 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    #more {display: none;
+    }
+    #myBtn {
+      border-radius: 50px;
+      border: 2px solid #68A4C4;
+      transition: 0.5s;
+      -webkit-animation-delay: 0.8s;
+      animation-delay: 0.8s;
+      padding: px;
+    }
+    #myBtn:hover {
+    background: #68A4C4;
+    color: #fff;
+    text-decoration: none;
+}
+    </style>
 </head>
 
 <body>
@@ -198,7 +215,6 @@
     <!-- ======= Why Us Section ======= -->
     <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
       <div class="container">
-
         <div class="row">
           <div class="col-lg-6 video-box">
             <!--<img src="assets/img/choose-us.png" class="img-fluid" alt="">-->
@@ -209,7 +225,6 @@ src="https://www.youtube.com/embed/5VXUltylSm0?playlist=5VXUltylSm0&loop=1">
           </div>
 
           <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
-
             <div class="icon-box">
               <div class="icon"><i class="bx bx-brain"></i></div>
               <h4 class="title"><a href="">Innovation and Creativity.</a></h4>
@@ -246,14 +261,20 @@ src="https://www.youtube.com/embed/5VXUltylSm0?playlist=5VXUltylSm0&loop=1">
           </div>
           <div class="col-md-7 pt-4">
             <h4 class="title">Enterprise Solutions.</h4>
-            <p>
-              Our enterprise solutions modus operandi is designed to meet the multifaceted needs of an organization rather than an individual end user or small business. <br><br>
-              Being large organizations with broad operational levels, enterprises often face unique challenges, such as interdepartmental relationship, 
-              central control and value-driven approaches, data security, among many others. 
-              The adoption of our enterprise solutions techniques can help you overcome these challenges, thus improving overall performance.<br><br>
-              We commonly integrate multiple systems within an organization, allowing for central mangament, correlation and 
-              dissemination of information, policies across its various operations, which can streamline business processes and improve workflows.
+            <div class="card" data-city="solutions">
+              <p>
+                Our enterprise solutions modus operandi is designed to meet the multifaceted needs of an organization rather than an individual end user or small business. <br><br>
+              Being large organizations with broad operational levels, enterprises often face unique challenges, such as
+                <span class="dots">...</span>
+                <span class="more" style="display: none;"> as interdepartmental relationship, 
+                  central control and value-driven approaches, data security, among many others. 
+                  The adoption of our enterprise solutions techniques can help you overcome these challenges, thus improving overall performance.<br><br>
+                  We commonly integrate multiple systems within an organization, allowing for central mangament, correlation and 
+                  dissemination of information, policies across its various operations, which can streamline business processes and improve workflows.
+                </span>
             </p>
+            <button onclick="readMore('solutions')" class="myBtn">Read more</button>
+              </div>
           </div>
         </div>
 
@@ -263,17 +284,23 @@ src="https://www.youtube.com/embed/5VXUltylSm0?playlist=5VXUltylSm0&loop=1">
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
             <h4 class="title">Scale - Connecting the Dots.</h4>
-            <p>
-              So you’ve made the decision to build and grow your business – congratulations!<br>
-              The manual processes that seems okay when you were starting up but now won’t let you move fast enough? You’ll either be 
-              putting out fires or desperately trying to keep your head above water. All of which are stressful.<br><br>
-              That's where we literally come in..<br><br>
-              Scaling a business means setting the stage to enable and support growth in your company. It means having the 
-              ability to grow without being hampered. It requires planning, 
-              some funding, and the right systems, staff, processes, technology, and partners.<br>
-              Technology makes it easier and less expensive to scale a business. You can gain huge economies of scale and 
-              more throughput, with less labor, if you invest wisely in our course mainly aimed to help you grow.
+            <div class="card" data-city="scale">
+              <p>
+                So you’ve made the decision to build and grow your business – congratulations!<br>
+                The manual processes that seems okay when you were starting up but now won’t let you move fast enough? You’ll either be 
+                putting out fires or desperately trying to keep your head above water. All of which are stressful.<br>
+                That's where we literally come in..<br>
+                Scaling a business
+                <span class="dots">...</span>
+                <span class="more" style="display: none;"> means setting the stage to enable and support growth in your company. It means having the 
+                  ability to grow without being hampered. It requires planning, 
+                  some funding, and the right systems, staff, processes, technology, and partners.<br>
+                  Technology makes it easier and less expensive to scale a business. You can gain huge economies of scale and 
+                  more throughput, with less labor, if you invest wisely in our course mainly aimed to help you grow.
+                </span>
             </p>
+            <button onclick="readMore('scale')" class="myBtn">Read more</button>
+              </div>
           </div>
         </div>
 
@@ -283,13 +310,19 @@ src="https://www.youtube.com/embed/5VXUltylSm0?playlist=5VXUltylSm0&loop=1">
           </div>
           <div class="col-md-7 pt-5">
             <h4 class="title">One-Stop Approach.</h4>
-            <p>Convenience - 
-              Having a singular point of service for your project, regardless of how many moving parts it has, 
-              is technically proven to be stress-free, and also a huge time saver in that same breathe. This 
-              approach also fastens production, fostering the ability to ship with little to no hindrance.<br><br>
-              The likelihood of miscommunication is reduced, delays encountered while waiting for conversations to happen 
-              across varying providers is drastically reduced.
-              </p>
+            <div class="card" data-city="approach">
+              <p>Convenience - 
+                Having a singular point of service for your project, regardless of how many moving parts it has, 
+                is technically proven to be stress-free, and also a huge time saver in that same breathe. This 
+                approach also fastens production, fostering the ability
+                <span class="dots">...</span>
+                <span class="more" style="display: none;"> to ship with little to no hindrance.<br><br>
+                  The likelihood of miscommunication is reduced, delays encountered while waiting for conversations to happen 
+                  across varying providers is drastically reduced.
+                </span>
+            </p>
+            <button onclick="readMore('approach')" class="myBtn">Read more</button>
+              </div>
           </div>
         </div>
 
@@ -298,16 +331,21 @@ src="https://www.youtube.com/embed/5VXUltylSm0?playlist=5VXUltylSm0&loop=1">
             <img src="assets/img/features-4.svg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
+            <div class="card" data-city="growth">
             <h4 class="title">Growth.</h4>
             <p>
               It is widely accepted that technology is the key driver of economic growth of
                countries, regions, cities, businesses, and startups. Technological progress allows for  the more efficient
                 production of more and better goods and services, which is what prosperity depends on.<br><br>
-                We believe that to be able to grow significantly in all aspects of operation, <em>Invention</em>, which is the act of creating new technology, 
+                We believe that
+              <span class="dots">...</span>
+              <span class="more" style="display: none;">to be able to grow significantly in all aspects of operation, <em>Invention</em>, which is the act of creating new technology, 
                 involves a new scientific or technical idea that can be incorporated into production and the means of its 
                 embodiment or accomplishment. To drive <em>Growth</em>, an invention must be novel and have utility.<br><br>
-                We can offer you so much more, Get in touch.
-            </p>
+                We can offer you so much more, Get in touch.</span>
+          </p>
+          <button onclick="readMore('growth')" class="myBtn">Read more</button>
+            </div>
           </div>
         </div>
       </div>
@@ -408,7 +446,23 @@ src="https://www.youtube.com/embed/5VXUltylSm0?playlist=5VXUltylSm0&loop=1">
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+    <script>
+      function readMore(city) {
+    let dots = document.querySelector(`.card[data-city="${city}"] .dots`);
+    let moreText = document.querySelector(`.card[data-city="${city}"] .more`); 
+    let btnText = document.querySelector(`.card[data-city="${city}"] .myBtn`);
 
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.textContent = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.textContent = "Read less"; 
+        moreText.style.display = "inline";
+    }
+}
+    </script>
 </body>
 
 </html>
