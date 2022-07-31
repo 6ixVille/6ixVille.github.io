@@ -34,10 +34,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   display: inline-block;
   padding: 12px 32px;
   border: none;
-  border-radius: 30px;
-  background: linear-gradient(145deg, #5687a2, #66a1c1);
-  box-shadow:  5px 5px 6px #5586a0,
-             -5px -5px 6px #69a7c8;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  5px 5px 10px #b3b3b3,
+             -5px -5px 10px #ffffff;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .myBtn:hover {
-  background: linear-gradient(145deg, #bab5b5, #ddd7d7);
+  background: #68A4C4;
   color: #fff;
   text-decoration: none;
 }
@@ -113,10 +113,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-decoration: none;
 }
 #header .logo img {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   margin: 0;
-  height: 130%;
-  width: 130%;
+  height: 200%;
+  width: 200%;
   object-fit: contain;
   display: flex;
   justify-content: flex-start;
