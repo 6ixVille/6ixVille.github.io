@@ -113,8 +113,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-decoration: none;
 }
 #header .logo img {
-  padding-top: 0;
-  margin: 10px;
+  padding-top: 10px;
+  margin: 0;
   height: 200%;
   width: 200%;
   object-fit: contain;
