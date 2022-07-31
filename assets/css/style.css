@@ -33,9 +33,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
+  border: none;
   border-radius: 50px;
   background: linear-gradient(145deg, #cacaca, #f0f0f0);
-  box-shadow:  5px 5px 10px #5e5e5e,
+  box-shadow:  5px 5px 10px #b3b3b3,
              -5px -5px 10px #ffffff;
   transition: 0.5s;
   line-height: 1;
@@ -112,7 +113,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-decoration: none;
 }
 #header .logo img {
-  padding: 10px;
+  padding-top: 30px;
   margin: 0;
   height: 160%;
   width: 160%;
